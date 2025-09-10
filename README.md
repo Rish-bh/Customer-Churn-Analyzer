@@ -93,3 +93,24 @@ cd customer-churn-analyzer
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
+### 3. Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### 4. Run the Jupyter Notebook
+
+```
+jupyter notebook customer_churn_analysis.ipynb
+```
+
+### 🔮 Next Steps
+
+Deployment: Deploy the saved model using a framework like Streamlit to create an interactive web app for business users.
+
+
+Integration: Integrate the model with CRM systems for real-time customer scoring and to trigger automated retention alerts.
+
+
+Monitoring: Continuously monitor and retrain the model with new data to maintain its accuracy and relevance over time.
