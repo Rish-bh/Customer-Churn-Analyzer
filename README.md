@@ -14,7 +14,7 @@ This project provides a data-driven approach to predicting and reducing customer
 
 ### ⚙️ Data & Methodology
 
-**Dataset:** The project utilizes the `Customer Churn.csv` dataset, which contains 3150 rows and 14 columns of anonymized customer data[cite: 19].
+**Dataset:** The project utilizes the `Customer Churn.csv` dataset, which contains 3150 rows and 14 columns of anonymized customer data.
 
 **Data Preparation:** The initial data preparation involved several key steps:
 * Standardized column names for consistency.
