@@ -82,7 +82,7 @@ To replicate this analysis, please follow the steps below.
 
 **1. Clone the Repository**
 ```bash
-git clone [https://github.com/your-username/customer-churn-analyzer.git](https://github.com/Rish-bh/customer-churn-analyzer.git)
+git clone [https://github.com/Rish-bh/customer-churn-analyzer.git
 cd customer-churn-analyzer
 
 ```
