@@ -6,25 +6,25 @@ This project provides a data-driven approach to predicting and reducing customer
 
 ### 🚀 Project Overview
 
-[cite_start]**Business Problem:** High customer churn directly impacts revenue, as acquiring new customers is significantly more expensive than retaining existing ones[cite: 13]. Understanding and mitigating churn is crucial for sustained profitability.
+**Business Problem:** High customer churn directly impacts revenue, as acquiring new customers is significantly more expensive than retaining existing ones. Understanding and mitigating churn is crucial for sustained profitability.
 
-[cite_start]**Project Objective:** The goal is to build a predictive model to identify customers at high risk of churning and understand the key drivers to inform proactive retention strategies[cite: 15, 16]. This analysis uses a dataset of customer usage patterns, subscription details, and demographic information to train and evaluate several machine learning models.
+**Project Objective:** The goal is to build a predictive model to identify customers at high risk of churning and understand the key drivers to inform proactive retention strategies. This analysis uses a dataset of customer usage patterns, subscription details, and demographic information to train and evaluate several machine learning models.
 
 ---
 
 ### ⚙️ Data & Methodology
 
-[cite_start]**Dataset:** The project utilizes the `Customer Churn.csv` dataset, which contains 3150 rows and 14 columns of anonymized customer data[cite: 19].
+**Dataset:** The project utilizes the `Customer Churn.csv` dataset, which contains 3150 rows and 14 columns of anonymized customer data[cite: 19].
 
 **Data Preparation:** The initial data preparation involved several key steps:
-* [cite_start]Standardized column names for consistency[cite: 21].
-* [cite_start]Removed 300 duplicate rows to ensure data quality[cite: 22].
-* [cite_start]Confirmed that no missing values were present in the dataset[cite: 23].
+* Standardized column names for consistency.
+* Removed 300 duplicate rows to ensure data quality.
+* Confirmed that no missing values were present in the dataset.
 
 **Key Insights from Analysis:**
-* **Imbalanced Data:** The dataset shows a churn rate of 15.6%, indicating an imbalance between churners and non-churners. [cite_start]This was managed during modeling by using `class_weight='balanced'`[cite: 27].
-* [cite_start]**Strongest Correlations:** The features with the strongest correlation to churn were `Complains` and `Subscription_Length`[cite: 29].
-* [cite_start]**Usage Patterns:** Customers who churned demonstrated significantly lower call duration (`Seconds_of_Use`) and SMS frequency[cite: 31].
+* **Imbalanced Data:** The dataset shows a churn rate of 15.6%, indicating an imbalance between churners and non-churners. This was managed during modeling by using `class_weight='balanced'`.
+* **Strongest Correlations:** The features with the strongest correlation to churn were `Complains` and `Subscription_Length`.
+* **Usage Patterns:** Customers who churned demonstrated significantly lower call duration (`Seconds_of_Use`) and SMS frequency.
 
 **Model Development:**
 * [cite_start]**Algorithms Tested:** The analysis evaluated Logistic Regression, Decision Tree, and Random Forest models[cite: 34].
